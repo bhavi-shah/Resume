@@ -1,0 +1,203 @@
+%-------------------------
+% Resume in Latex
+% Author : Bhavi Shah
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.6in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-7pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-4.5pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+
+\begin{center}
+    \textbf{\Huge \scshape Bhavi Shah} \\ \vspace{1pt}
+    \small 312-358-6415 $|$ \href{mailto:bhavi1711999@gmail.com }{\underline{bhavi1711999@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/bhavi--shah/}{\underline{linkedin.com/in/bhavi-shah}} $|$
+    \href{https://github.com/bhavi1719}{\underline{github.com/bhavi-shah}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Illinois Institute of Technology }{Chicago, IL}
+      {Master of Data Science |\textbf{ GPA: 3.66}}{January 2021 - Present}
+          \resumeItemListStart
+            \resumeItem{Top Courses: Data Preparation and Analysis, Applied Statistics, Project Management, Machine Learning, Statistical Learning, Big Data Technologies, Data Mining  }
+        \resumeItemListEnd
+    \resumeSubheading
+      {Indus University }{Gujarat, India}
+      {Bachelor of Information Technology }{August 2016 - June 2020}
+          %\resumeItemListStart
+           %\resumeItem{Top Courses: Enterprise Web Applications, Mobile Application Development, Geo-spatial Vision and Visualization, Software Systems Architecture, Software Modelling  }
+        %\resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+  
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, SQL, R, Java} \\
+     \textbf{Databases}{: SQL Server, MySQL, Snowflake, MongoDB, Oracle} \\
+     \textbf{Tools}{: SSIS, SSAS, Power BI, Tableau,Microsoft SQL Server Management, Hadoop, Hive, HBase } \\
+     \textbf{Cloud Services}{: Amazon Web Services, Microsoft Azure, Google Cloud Platform} \\
+      \textbf{Python Libraries}{: Pandas, NumPy, OpenCV, Scikit-learn, Matplotlib, Random forests, Decision Trees, Bayesian Models, Pytorch, Keras, Neural Networks, TensorFlow} \\
+     
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Data Scientist}{January 2022 - May 2022}
+      {CCC Intelligent Solutions Inc.}{Chicago, IL}
+      \resumeItemListStart
+        \resumeItem{Developed and deployed a project of Machine Unlearning under my Data Science Practicum Training with a team of 5 members using Python technology. }
+        \resumeItem{Deployed the model to evaluate the possibility of unlearning the impact of small set of the original dataset used to train the model.}
+        \resumeItem{Experience in one or more of the following areas: machine learning, recommendation systems, pattern recognition, large-scale data mining or artificial intelligence.}
+        \resumeItem{Implemented the framework of SISA training to expediate the learning process and improve the performance with reduction in computational overhead associated with unlearning.}
+         
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Data Scientist Intern}{December 2019 - September 2020}
+      {Digimation Technologies Pvt. Ltd}{Ahmedabad, India}
+      \resumeItemListStart
+        \resumeItem{Worked with Pandas/Numpy to analyze the data and developed dashboards and reports on Tableau to help business team to make data driven decision.}
+        \resumeItem{Used \textbf{SQL} for the DB and various python libraries for data analysis and predictive modeling  }
+        \resumeItem{Implemented ETL pipeline from OLTP databases to OLAP Data warehouse, ensured data completeness, accuracy, and consistency}
+        \resumeItem{Used Python to create regression models, clustering algorithm and other data mining methods to explore the fast growth opportunities of the clients.}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Data Analyst Intern}{May 2019 - November 2019}
+      {AIS Technolabs Pvt. Ltd.}{Ahmedabad, India}
+      \resumeItemListStart
+        \resumeItem{Worked with business owners to identify key data elements monitored on an on-going basis to ensure a high level of data quality within the Warehouse. Followed Agile Methodology and adherence to the Scrum Methodology.}
+        \resumeItem{Extract, transform, cleanse, and load (ETL) data into Microsoft SQL Server, Staging Databases using Microsoft SSIS.}
+        \resumeItem{Developed reports to the specification of Business Intelligence group by using Tableau Desktop.}
+        
+      \resumeItemListEnd
+      
+    \resumeSubHeadingListEnd
+    
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Snowflake Data Warehouse }{(Snowflake, SQL, Python, Power BI, SSIS, AWS)}{: Created Data Warehouse model to direct aspects such as sourcing, transformation, and extraction. Performed Data Migration from BAAN database to Snowflake. Automated ETL processes using Prefect (Python), making it easier to wrangle data and reducing the time by 40\%. Devised reports and visualizations to present requested data in a sleek format using Power BI dashboard. Hands-on experience with AWS: EC2, EMR, S3, IAM.}\\
+     \textbf{Yelp Data Analysis }{(Hive, Pig, Python, Data Mining, EDA)}{: Analyzed Yelp datasets to help restaurants get better ratings and related suggestions to make more business. The project tracks down data about organizations across 11 metropolitan areas in the nation using Hive and Pig to get insights that which factors of restaurants matters more to the customers and which aspects can be ignored which helps in finding trusted reviewers.}\\
+     \textbf{Image Segmentation using Mask R-CNN }{(Python, Neural Networks, Computer Vision, K-Means)}{: Created an Image segmentation model using Mask R-CNN model based on Feature Pyramid Network and Resnet-101 to extract features from the images on the COCO dataset improving the speed and efficiency for object detection. Achieved 99\% accuracy in generating masks and identifying objects in the dataset.}\\
+     
+    }}
+ \end{itemize}
+
+
+\end{document}
