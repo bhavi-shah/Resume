@@ -63,7 +63,7 @@
 % Custom commands
 \newcommand{\resumeItem}[1]{
   \item\small{
-    {#1 \vspace{-4.5pt}}
+    {#1 \vspace{-3pt}}
   }
 }
 
@@ -85,7 +85,7 @@
 \newcommand{\resumeProjectHeading}[2]{
     \item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \small#1 & #2 \\
+       \textbf{#1} & \textit{\small #2} \\
     \end{tabular*}\vspace{-7pt}
 }
 
@@ -124,13 +124,6 @@
           \resumeItemListStart
             \resumeItem{Top Courses: Data Preparation and Analysis, Applied Statistics, Project Management, Machine Learning, Statistical Learning, Big Data Technologies, Data Mining  }
         \resumeItemListEnd
-    \resumeSubheading
-      {Indus University }{Gujarat, India}
-      {Bachelor of Information Technology }{August 2016 - June 2020}
-          %\resumeItemListStart
-           %\resumeItem{Top Courses: Enterprise Web Applications, Mobile Application Development, Geo-spatial Vision and Visualization, Software Systems Architecture, Software Modelling  }
-        %\resumeItemListEnd
-
   \resumeSubHeadingListEnd
   
 %-----------TECHNICAL SKILLS-----------
@@ -179,7 +172,7 @@
       {AIS Technolabs Pvt. Ltd.}{Ahmedabad, India}
       \resumeItemListStart
         \resumeItem{Worked with business owners to identify key data elements monitored on an on-going basis to ensure a high level of data quality within the Warehouse. Followed Agile Methodology and adherence to the Scrum Methodology.}
-        \resumeItem{Extract, transform, cleanse, and load (ETL) data into Microsoft SQL Server, Staging Databases using Microsoft SSIS.}
+        \resumeItem{Extract, transform, cleanse, and load (ETL) data into Microsoft SQL Server, Staging Databases using SSIS.}
         \resumeItem{Developed reports to the specification of Business Intelligence group by using Tableau Desktop.}
         
       \resumeItemListEnd
@@ -187,17 +180,30 @@
     \resumeSubHeadingListEnd
     
 
-
-%-----------PROJECTS-----------
-\section{Projects}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Snowflake Data Warehouse }{(Snowflake, SQL, Python, Power BI, SSIS, AWS)}{: Created Data Warehouse model to direct aspects such as sourcing, transformation, and extraction. Performed Data Migration from BAAN database to Snowflake. Automated ETL processes using Prefect (Python), making it easier to wrangle data and reducing the time by 40\%. Devised reports and visualizations to present requested data in a sleek format using Power BI dashboard. Hands-on experience with AWS: EC2, EMR, S3, IAM.}\\
-     \textbf{Yelp Data Analysis }{(Hive, Pig, Python, Data Mining, EDA)}{: Analyzed Yelp datasets to help restaurants get better ratings and related suggestions to make more business. The project tracks down data about organizations across 11 metropolitan areas in the nation using Hive and Pig to get insights that which factors of restaurants matters more to the customers and which aspects can be ignored which helps in finding trusted reviewers.}\\
-     \textbf{Image Segmentation using Mask R-CNN }{(Python, Neural Networks, Computer Vision, K-Means)}{: Created an Image segmentation model using Mask R-CNN model based on Feature Pyramid Network and Resnet-101 to extract features from the images on the COCO dataset improving the speed and efficiency for object detection. Achieved 99\% accuracy in generating masks and identifying objects in the dataset.}\\
-     
-    }}
- \end{itemize}
-
-
+%-----------PROJECTS New-----------
+\section{Project}
+  \resumeSubHeadingListStart
+     \resumeProjectHeading
+      {Snowflake Data Warehouse}{Snowflake, SQL, Python, Power BI, SSIS, AWS}
+      \resumeItemListStart
+        \resumeItem{Created Data Warehouse model to direct aspects such as sourcing, transformation, and extraction}
+        \resumeItem{ Performed Data Migration from BAAN database to Snowflake}
+        \resumeItem{Automated ETL processes using Prefect (Python), making it easier to wrangle data \& reducing the time by 40\%.}
+        \resumeItem{Devised reports and visualizations to present requested data in a sleek format using Power BI dashboard.}
+      \resumeItemListEnd
+      
+     \resumeProjectHeading
+      {Yelp Data Analysis}{Hive, Pig, Python, Data Mining, EDA}
+      \resumeItemListStart
+        \resumeItem{Analyzed Yelp datasets to help restaurants get better ratings and related suggestions to make more business}
+        \resumeItem{ The project tracks down data about organizations across 11 metropolitan areas in the nation using Hive and Pig to get insights that which factors of restaurants matters more to the customers and which aspects can be ignored which helps in finding trusted reviewers.}
+      \resumeItemListEnd
+      
+     \resumeProjectHeading
+      {Image Segmentation using Mask R-CNN}{Python, Neural Networks, Computer Vision, K-Means}
+      \resumeItemListStart
+        \resumeItem{Created an Image segmentation model using Mask R-CNN model based on Feature Pyramid Network and Resnet-101 to extract features from the images on the COCO dataset improving the speed and efficiency for object detection.}
+        \resumeItem{ Achieved 99\% accuracy in generating masks and identifying objects in the dataset.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
 \end{document}
